@@ -5,7 +5,7 @@ import { AboutPageComponent } from "./pages/about-page/about-page.component";
 
 const routes: Routes = [
     {path:'', component: ProductPageComponent},
-    { path:'', component: AboutPageComponent}
+    { path:'about', component: AboutPageComponent}
 ]
 
 @NgModule ({
